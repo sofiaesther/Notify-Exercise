@@ -1,0 +1,20 @@
+The objetive was to connect the data with the database using SQL by postgress. 
+
+The program would select the data from the send tables and convert it to SQL to be able to esier manipulation. 
+
+On the archive Program.js are the code for the program.
+
+To be able to run you need to instal the dependencies and send a get request to the server. Also is needed to modify the information at the .env to be able to access the data from your end. I've set the model that I've had used.
+
+The code used to set the database on postgress is on the file SQL COMAND. Was used the pgAdmin, but this code can also run at the terminal.
+
+Then the server will respond with a table organized by:
+[ 'opentime', 'volume', 'elegible' ]
+in rows for better visualization.
+
+The program was created using the data base passed to SQL using PostgreSQL and getting the data in a NODE.js server using express.The code run through data 1 time to avoid the complexity increasing, verifying the difference in months between the last enter in 2021 and the last enter in 2022, and also verifying if the client is elegible in 2022.
+
+My biggest problem was being able to mesure my time and need to work only with the skills I've already knew without doing any research due to problems with internet connection.
+
+Thank you for your time and opportunity.
+
